@@ -1,0 +1,179 @@
+body {
+	font-family: "DM Sans", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: #e7e7dd;
+	color: #484847;
+	padding-bottom: 5rem;
+}
+
+
+.responsive-wrapper {
+	width: 95%;
+	max-width: 1900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left-text {
+    color: black; /* Warna teks menjadi hitam */
+  }
+
+  .header-left img {
+    max-width: 50px; 
+    margin-right: 10px;
+  }
+
+.search{
+    --padding : 5px;
+    width:  max-content;
+    display: flex;
+    align-items:center ;
+    padding: 14px;
+    border-radius: 28px;
+    background: #d3d3d3;
+}
+
+
+.search-input{
+    font-size:16px ;
+    font-family: "DM Sans", sans-serif;
+    margin-right: var(--padding);
+    outline:none;
+    border: none;
+    background: transparent;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.search-input::placeholder{
+    color: rgba(7, 6, 6, 0.25);
+}
+
+/* Existing CSS */
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    margin-right: 20px; 
+    padding: 8px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.category-label,
+.material-symbols-outlined {
+    margin-right: 5px; 
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.category-label {
+    margin-right: 1px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 8px;
+    z-index: 1;
+    top: 100%;
+    right: 0; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.account-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.account-dropdown .material-symbols-outlined {
+    font-size: 24px; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.account-dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 8px;
+    z-index: 1;
+    top: 100%;
+    right: 0;
+}
+
+.account-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.account-dropdown .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+/* bagian body */
+
+.page-title {
+    display: flex;
+    justify-content: center;
+}
+
+.title-left,
+.title-right {
+    font-size: 2rem;
+    font-weight: 700;
+    color:black;
+}
+
+.title-divider {
+    width: 0;
+    height: 1.5em;
+    border-left: 2px solid black;
+    margin: 0 0.5rem;
+}
+
+
+
+
+
